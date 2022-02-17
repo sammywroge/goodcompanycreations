@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    background-color: #383636;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffff6;
+}
+header{
+    background-color: #fffff6;
+    color: #383636;
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+nav a{
+    color: #ffbe5c;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: .5rem 2.5rem;
+    text-align: center;
+    margin: 1rem;
+    display: inline-block;
+}
+.logo{
+    width: 24rem;
+    margin: 0;
+    align-items: center;
+}
+.box{
+    background-color: #d9d9d9;
+    color: #383636;
+    margin: 1rem;
+    padding: .5rem;
+    font-size: larger;
+}
+.beans{
+    width: 22rem;
+    margin: 1rem;
+}
+.clients{
+    font-size: x-large; 
+    color: #d9d9d9;
+    text-align: center;
+    padding-top: 7.5rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-right: 2.25rem;
+    text-decoration: none;
+}
+.clients:hover{
+    background-color: #d9d9d9;
+    color: #383636;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: x-large;
+    margin-bottom: 11.3rem;
+    text-align: center;
+}
+.emailme{
+    font-size: x-large; 
+    color: #d9d9d9;
+    text-align: center;
+    padding: 6.25rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    width: 20rem;
+    vertical-align: middle;
+}
+.emailme:hover{
+    background-color: #d9d9d9;
+    color: #383636;
+    font-size: x-large;
+    text-align: center;
+}
+.contact>img{
+    width: 20rem;
+    vertical-align: middle;
+    margin: 0 1rem;
+}
+.contact{
+    text-align: center;
+}
+.gcc{
+    color: #d9d9d9;
+}
+.hannah{
+    width: 25rem;
+    margin: 1rem auto;    
+}
+.kylie{
+    width: 25rem;
+    margin: 1rem auto;  
+}
+.map img{
+    width: 35rem;
+    margin: 1rem;  
+}
+.equipment{
+    width: 20rem;
+    margin: 1rem;  
+}
+.history{
+    width: 8.75rem;
+    margin: 1rem;   
+}
+.FAQs{
+    width: 20rem;
+    margin: 1rem; 
+}
+.tech{
+    width: 25rem;
+    margin: 1rem;  
+}
+.home{
+    text-align: center;
+}
+.dot{
+    width: 5rem;
+    margin: 1rem;   
+}
+.calendar{
+    align-items: center;
+    width: 35rem;
+}
+img{
+    width: 100%;
+}
+.map{
+    font-size: large;
+}
+footer img{
+    width: 1.5rem;
+    align-items: center;
+}
+.tiktokclient{
+    width: 1.8rem;
+    align-items: center; 
+}
+.instagramclient{
+    width: 1.8rem;
+    align-items: center; 
+}
+.youtubeclient{
+    width: 1.8rem;
+    align-items: center; 
+}
+.capo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.capo div{
+    margin: .5rem;
+}
+li::before{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: -2rem;
+    content: url(images/music-note.png);
+}
+li{
+    position: relative;
+    margin: .5rem;
+}
+ul{
+    list-style: none;
+}
+.box img{
+    width:6rem;
+}
+.events{
+    text-align: center;
+}
+.milk .coffee .shots{
+    top: 5rem;
+}
+input[type=Submit]{
+    background-color: #ffbe5c;
+    border: none;
+    color: #fffff6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 6rem;
+    padding: 1rem;
+    font-size: larger;
+}
+input:hover{
+    background-color: #ffbe5c;
+}
+footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+.about p{
+    margin: 1rem;
+}
+.connect{
+    width: 50rem;
+    margin: 1rem;
+}
+.description{
+    text-align: center;
+}
+input{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: large;
+}
+.contact footer{
+    margin-top: 1.5rem;
+}
+.home footer{
+    margin-top: 1.5rem;
+}
+.summary{
+    font-size: larger;
+    padding: 1rem;
+}
+@media (min-width: 1200px){
+    .clients{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    }
+    .hannah{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .kylie{
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    footer{
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+    .events{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    }
+    nav a{
+        display: inline-block;
+        position: relative;
+        justify-content: space-between;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    .capo{
+        grid-column: 2 / 5;
+        grid-row: 1 / 2;
+    }
+    .milk{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .coffee{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .shots{
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+    .menu footer{
+        grid-column: 1 / 6;
+        grid-row: 3 / 4;
+    }
+    .home{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    .summary{
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .home footer{
+        grid-column: 1 / 6;
+        grid-row: 4 / 5;
+        margin-top: 1.5rem;
+    }
+    .contact{
+        margin: 1rem 20%;
+    }
+    .map{
+        display: flex;
+    }
+    .about{
+        margin: 1rem 20%;
+    }
+}
