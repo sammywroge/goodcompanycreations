@@ -83,6 +83,12 @@ nav a{
     font-size: x-large;
     text-align: center;
 }
+.businessemail a{
+    color: #ffbe5c;
+}
+.businessemail{
+    font-size: large;
+}
 .contact>img{
     width: 20rem;
     vertical-align: middle;
@@ -125,6 +131,10 @@ nav a{
     margin: 1rem auto;    
 }
 .kylie{
+    width: 25rem;
+    margin: 1rem auto;  
+}
+.mackenzie{
     width: 25rem;
     margin: 1rem auto;  
 }
