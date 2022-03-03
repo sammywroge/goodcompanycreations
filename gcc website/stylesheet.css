@@ -15,16 +15,20 @@ header{
 nav{
     width: 100%;
     text-align: center;
-    margin: 0;
+    margin: 2.5rem 0 0;
 }
 nav a{
-    color: #ffbe5c;
+    color: #fffff6;
     font-family: sans-serif;
-    font-size: larger;
-    padding: .5rem 2.5rem;
+    font-size: medium;
     text-align: center;
-    margin: 1rem;
+    margin: 0 2rem;
     display: inline-block;
+    background-color: #ffbe5c;
+    width: 4rem;
+    border-radius: 4rem;
+    padding: 1.4rem 0;
+    text-decoration: none;
 }
 .logo{
     width: 24rem;
@@ -126,6 +130,9 @@ nav a{
 .gray{
     background-color: #d9d9d9;
 }
+.charcoal{
+    background-color: #383636;
+}
 .hannah{
     width: 25rem;
     margin: 1rem auto;    
@@ -135,6 +142,10 @@ nav a{
     margin: 1rem auto;  
 }
 .mackenzie{
+    width: 25rem;
+    margin: 1rem auto;  
+}
+.emmk{
     width: 25rem;
     margin: 1rem auto;  
 }
